@@ -1,0 +1,24 @@
+# DSHS Data Use Agreement: never commit data or outputs made from it
+DataSets/
+data/
+output/
+*.zip
+*.txt
+*.csv
+*.csv.gz
+*.tsv
+*.parquet
+*.xlsx
+*.xls
+*.docx
+*.pdf
+*.pkl
+*.feather
+
+# notebooks: commit with outputs cleared
+.ipynb_checkpoints/
+
+# system
+.DS_Store
+__pycache__/
+.vscode/
